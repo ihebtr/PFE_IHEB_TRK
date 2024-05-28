@@ -1,0 +1,613 @@
+11-05-2024 11:57:37.0440|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 11:57:37.0445|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 11:57:37.0445|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 11:57:39.0674|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 11:57:39.0993|INFO |Finished Spring Data repository scanning in 306 ms. Found 14 JPA repository interfaces.
+11-05-2024 11:57:40.0557|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 11:57:41.0705|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 11:57:41.0724|INFO |Starting service [Tomcat]
+11-05-2024 11:57:41.0724|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 11:57:41.0949|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 11:57:41.0949|INFO |Root WebApplicationContext: initialization completed in 4503 ms
+11-05-2024 11:57:42.0396|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 11:57:42.0515|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 11:57:42.0795|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 11:57:43.0007|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 11:57:44.0244|INFO |HikariPool-1 - Starting...
+11-05-2024 11:57:44.0453|INFO |HikariPool-1 - Start completed.
+11-05-2024 11:57:44.0570|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 11:57:44.0587|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 11:57:48.0058|INFO |Cannot determine local hostname
+11-05-2024 11:57:49.0797|INFO |Cannot determine local hostname
+11-05-2024 11:57:49.0803|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 11:57:49.0924|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 11:57:49.0966|INFO |Setting initial instance status as: STARTING
+11-05-2024 11:57:50.0041|INFO |Initializing Eureka in region us-east-1
+11-05-2024 11:57:50.0049|INFO |Resolving eureka endpoints via configuration
+11-05-2024 11:57:50.0101|INFO |Disable delta property : false
+11-05-2024 11:57:50.0102|INFO |Single vip registry refresh property : null
+11-05-2024 11:57:50.0102|INFO |Force full registry fetch : false
+11-05-2024 11:57:50.0102|INFO |Application is null : false
+11-05-2024 11:57:50.0102|INFO |Registered Applications size is zero : true
+11-05-2024 11:57:50.0102|INFO |Application version is -1: true
+11-05-2024 11:57:50.0103|INFO |Getting all instance registry info from the eureka server
+11-05-2024 11:57:50.0534|INFO |The response status is 200
+11-05-2024 11:57:50.0537|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 11:57:50.0541|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 11:57:50.0549|INFO |Discovery Client initialized at timestamp 1715421470547 with initial instances count: 1
+11-05-2024 11:57:50.0551|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 11:57:50.0552|INFO |Saw local status change event StatusChangeEvent [timestamp=1715421470552, current=UP, previous=STARTING]
+11-05-2024 11:57:50.0555|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 11:57:50.0585|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 11:57:50.0585|INFO |Updating port to 8060
+11-05-2024 11:57:50.0605|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 11:57:51.0798|INFO |Cannot determine local hostname
+11-05-2024 11:57:51.0826|INFO |Starting Completed ...
+11-05-2024 11:58:09.0723|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2024 11:58:09.0723|INFO |Initializing Servlet 'dispatcherServlet'
+11-05-2024 11:58:09.0724|INFO |Completed initialization in 1 ms
+11-05-2024 11:58:10.0444|INFO |Init duration for springdoc-openapi is: 668 ms
+11-05-2024 12:02:50.0117|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:07:50.0119|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:12:50.0120|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:13:17.0709|INFO |Init duration for springdoc-openapi is: 450 ms
+11-05-2024 12:16:25.0203|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 12:16:25.0203|INFO |Saw local status change event StatusChangeEvent [timestamp=1715422585203, current=DOWN, previous=UP]
+11-05-2024 12:16:25.0203|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:16:25.0209|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:16:25.0257|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:16:25.0262|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 12:16:25.0267|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 12:16:25.0268|INFO |Shutting down DiscoveryClient ...
+11-05-2024 12:16:28.0275|INFO |Unregistering ...
+11-05-2024 12:16:28.0281|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 12:16:28.0287|INFO |Completed shut down of DiscoveryClient
+11-05-2024 12:21:21.0924|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 12:21:21.0927|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 12:21:21.0928|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 12:21:23.0720|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 12:21:24.0044|INFO |Finished Spring Data repository scanning in 314 ms. Found 14 JPA repository interfaces.
+11-05-2024 12:21:24.0738|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 12:21:26.0152|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 12:21:26.0187|INFO |Starting service [Tomcat]
+11-05-2024 12:21:26.0187|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 12:21:26.0438|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 12:21:26.0439|INFO |Root WebApplicationContext: initialization completed in 4510 ms
+11-05-2024 12:21:26.0925|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 12:21:27.0024|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 12:21:27.0324|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 12:21:27.0547|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 12:21:28.0905|INFO |HikariPool-1 - Starting...
+11-05-2024 12:21:29.0152|INFO |HikariPool-1 - Start completed.
+11-05-2024 12:21:29.0305|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 12:21:29.0321|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:21:32.0693|INFO |Cannot determine local hostname
+11-05-2024 12:21:34.0321|INFO |Cannot determine local hostname
+11-05-2024 12:21:34.0328|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 12:21:34.0441|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 12:21:34.0485|INFO |Setting initial instance status as: STARTING
+11-05-2024 12:21:34.0554|INFO |Initializing Eureka in region us-east-1
+11-05-2024 12:21:34.0563|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:21:34.0598|INFO |Disable delta property : false
+11-05-2024 12:21:34.0599|INFO |Single vip registry refresh property : null
+11-05-2024 12:21:34.0599|INFO |Force full registry fetch : false
+11-05-2024 12:21:34.0599|INFO |Application is null : false
+11-05-2024 12:21:34.0599|INFO |Registered Applications size is zero : true
+11-05-2024 12:21:34.0599|INFO |Application version is -1: true
+11-05-2024 12:21:34.0599|INFO |Getting all instance registry info from the eureka server
+11-05-2024 12:21:35.0155|INFO |The response status is 200
+11-05-2024 12:21:35.0157|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 12:21:35.0160|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 12:21:35.0166|INFO |Discovery Client initialized at timestamp 1715422895165 with initial instances count: 1
+11-05-2024 12:21:35.0169|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 12:21:35.0170|INFO |Saw local status change event StatusChangeEvent [timestamp=1715422895170, current=UP, previous=STARTING]
+11-05-2024 12:21:35.0172|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:21:35.0205|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 12:21:35.0206|INFO |Updating port to 8060
+11-05-2024 12:21:35.0228|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:21:36.0376|INFO |Cannot determine local hostname
+11-05-2024 12:21:36.0406|INFO |Starting Completed ...
+11-05-2024 12:22:58.0265|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2024 12:22:58.0266|INFO |Initializing Servlet 'dispatcherServlet'
+11-05-2024 12:22:58.0267|INFO |Completed initialization in 1 ms
+11-05-2024 12:22:58.0946|INFO |Init duration for springdoc-openapi is: 627 ms
+11-05-2024 12:24:37.0962|INFO |Init duration for springdoc-openapi is: 294 ms
+11-05-2024 12:26:34.0612|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:27:07.0652|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 12:27:07.0652|INFO |Saw local status change event StatusChangeEvent [timestamp=1715423227652, current=DOWN, previous=UP]
+11-05-2024 12:27:07.0653|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:27:07.0658|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:27:07.0696|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:27:07.0701|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 12:27:07.0705|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 12:27:07.0707|INFO |Shutting down DiscoveryClient ...
+11-05-2024 12:27:10.0720|INFO |Unregistering ...
+11-05-2024 12:27:10.0725|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 12:27:10.0730|INFO |Completed shut down of DiscoveryClient
+11-05-2024 12:31:33.0549|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 12:31:33.0554|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 12:31:33.0555|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 12:31:35.0536|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 12:31:35.0825|INFO |Finished Spring Data repository scanning in 278 ms. Found 14 JPA repository interfaces.
+11-05-2024 12:31:36.0417|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 12:31:37.0504|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 12:31:37.0519|INFO |Starting service [Tomcat]
+11-05-2024 12:31:37.0519|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 12:31:37.0698|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 12:31:37.0699|INFO |Root WebApplicationContext: initialization completed in 4143 ms
+11-05-2024 12:31:38.0129|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 12:31:38.0234|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 12:31:38.0593|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 12:31:38.0812|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 12:31:40.0178|INFO |HikariPool-1 - Starting...
+11-05-2024 12:31:40.0382|INFO |HikariPool-1 - Start completed.
+11-05-2024 12:31:40.0511|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 12:31:40.0535|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:31:44.0193|INFO |Cannot determine local hostname
+11-05-2024 12:31:45.0828|INFO |Cannot determine local hostname
+11-05-2024 12:31:45.0836|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 12:31:45.0967|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 12:31:46.0016|INFO |Setting initial instance status as: STARTING
+11-05-2024 12:31:46.0079|INFO |Initializing Eureka in region us-east-1
+11-05-2024 12:31:46.0086|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:31:46.0121|INFO |Disable delta property : false
+11-05-2024 12:31:46.0121|INFO |Single vip registry refresh property : null
+11-05-2024 12:31:46.0121|INFO |Force full registry fetch : false
+11-05-2024 12:31:46.0122|INFO |Application is null : false
+11-05-2024 12:31:46.0122|INFO |Registered Applications size is zero : true
+11-05-2024 12:31:46.0122|INFO |Application version is -1: true
+11-05-2024 12:31:46.0122|INFO |Getting all instance registry info from the eureka server
+11-05-2024 12:31:46.0580|INFO |The response status is 200
+11-05-2024 12:31:46.0584|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 12:31:46.0586|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 12:31:46.0593|INFO |Discovery Client initialized at timestamp 1715423506592 with initial instances count: 1
+11-05-2024 12:31:46.0594|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 12:31:46.0595|INFO |Saw local status change event StatusChangeEvent [timestamp=1715423506595, current=UP, previous=STARTING]
+11-05-2024 12:31:46.0600|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:31:46.0630|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 12:31:46.0631|INFO |Updating port to 8060
+11-05-2024 12:31:46.0659|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:31:47.0812|INFO |Cannot determine local hostname
+11-05-2024 12:31:47.0837|INFO |Starting Completed ...
+11-05-2024 12:35:01.0678|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 12:35:01.0678|INFO |Saw local status change event StatusChangeEvent [timestamp=1715423701678, current=DOWN, previous=UP]
+11-05-2024 12:35:01.0678|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:35:01.0684|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:35:01.0716|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:35:01.0720|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 12:35:01.0722|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 12:35:01.0724|INFO |Shutting down DiscoveryClient ...
+11-05-2024 12:35:04.0728|INFO |Unregistering ...
+11-05-2024 12:35:04.0734|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 12:35:04.0739|INFO |Completed shut down of DiscoveryClient
+11-05-2024 12:35:14.0076|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 12:35:14.0081|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 12:35:14.0081|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 12:35:16.0191|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 12:35:16.0579|INFO |Finished Spring Data repository scanning in 369 ms. Found 14 JPA repository interfaces.
+11-05-2024 12:35:17.0217|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 12:35:18.0796|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 12:35:18.0817|INFO |Starting service [Tomcat]
+11-05-2024 12:35:18.0818|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 12:35:19.0210|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 12:35:19.0210|INFO |Root WebApplicationContext: initialization completed in 5128 ms
+11-05-2024 12:35:19.0727|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 12:35:19.0881|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 12:35:20.0311|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 12:35:20.0607|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 12:35:22.0268|INFO |HikariPool-1 - Starting...
+11-05-2024 12:35:22.0541|INFO |HikariPool-1 - Start completed.
+11-05-2024 12:35:22.0650|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 12:35:22.0670|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 12:35:26.0441|INFO |Cannot determine local hostname
+11-05-2024 12:35:28.0256|INFO |Cannot determine local hostname
+11-05-2024 12:35:28.0263|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 12:35:28.0383|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 12:35:28.0429|INFO |Setting initial instance status as: STARTING
+11-05-2024 12:35:28.0516|INFO |Initializing Eureka in region us-east-1
+11-05-2024 12:35:28.0525|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:35:28.0577|INFO |Disable delta property : false
+11-05-2024 12:35:28.0577|INFO |Single vip registry refresh property : null
+11-05-2024 12:35:28.0577|INFO |Force full registry fetch : false
+11-05-2024 12:35:28.0577|INFO |Application is null : false
+11-05-2024 12:35:28.0578|INFO |Registered Applications size is zero : true
+11-05-2024 12:35:28.0578|INFO |Application version is -1: true
+11-05-2024 12:35:28.0578|INFO |Getting all instance registry info from the eureka server
+11-05-2024 12:35:29.0039|INFO |The response status is 200
+11-05-2024 12:35:29.0042|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 12:35:29.0045|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 12:35:29.0052|INFO |Discovery Client initialized at timestamp 1715423729050 with initial instances count: 2
+11-05-2024 12:35:29.0054|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 12:35:29.0055|INFO |Saw local status change event StatusChangeEvent [timestamp=1715423729055, current=UP, previous=STARTING]
+11-05-2024 12:35:29.0057|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 12:35:29.0107|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 12:35:29.0108|INFO |Updating port to 8060
+11-05-2024 12:35:29.0137|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 12:35:30.0274|INFO |Cannot determine local hostname
+11-05-2024 12:35:30.0313|INFO |Starting Completed ...
+11-05-2024 12:39:20.0050|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2024 12:39:20.0051|INFO |Initializing Servlet 'dispatcherServlet'
+11-05-2024 12:39:20.0053|INFO |Completed initialization in 2 ms
+11-05-2024 12:39:20.0967|INFO |Init duration for springdoc-openapi is: 826 ms
+11-05-2024 12:40:28.0586|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:45:28.0588|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:50:28.0594|INFO |Resolving eureka endpoints via configuration
+11-05-2024 12:55:28.0610|INFO |Resolving eureka endpoints via configuration
+11-05-2024 13:00:28.0623|INFO |Resolving eureka endpoints via configuration
+11-05-2024 13:02:17.0287|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 13:02:17.0287|INFO |Saw local status change event StatusChangeEvent [timestamp=1715425337287, current=DOWN, previous=UP]
+11-05-2024 13:02:17.0287|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 13:02:17.0297|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 13:02:17.0331|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 13:02:17.0338|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 13:02:17.0343|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 13:02:17.0346|INFO |Shutting down DiscoveryClient ...
+11-05-2024 13:02:20.0350|INFO |Unregistering ...
+11-05-2024 13:02:20.0356|INFO |Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:8761/eureka/} exception=I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/localhost:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/localhost:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 52 more
+
+11-05-2024 13:02:20.0363|INFO |Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://127.0.0.1:8761/eureka/}, exception=I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/localhost:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://127.0.0.1:8761/eureka/apps/ADMINISTRATION-SERVICE/localhost:administration-service:8060": Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8761 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 53 more
+
+11-05-2024 13:02:20.0369|INFO |Completed shut down of DiscoveryClient
+11-05-2024 13:03:21.0505|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 13:03:21.0510|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 13:03:21.0510|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 13:03:23.0280|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 13:03:23.0600|INFO |Finished Spring Data repository scanning in 309 ms. Found 14 JPA repository interfaces.
+11-05-2024 13:03:24.0116|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 13:03:25.0216|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 13:03:25.0228|INFO |Starting service [Tomcat]
+11-05-2024 13:03:25.0228|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 13:03:25.0450|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 13:03:25.0451|INFO |Root WebApplicationContext: initialization completed in 3939 ms
+11-05-2024 13:03:25.0915|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 13:03:26.0017|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 13:03:26.0357|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 13:03:26.0561|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 13:03:27.0757|INFO |HikariPool-1 - Starting...
+11-05-2024 13:03:27.0973|INFO |HikariPool-1 - Start completed.
+11-05-2024 13:03:28.0064|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 13:03:28.0081|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 13:03:31.0436|INFO |Cannot determine local hostname
+11-05-2024 13:03:33.0085|INFO |Cannot determine local hostname
+11-05-2024 13:03:33.0092|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 13:03:33.0236|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 13:03:33.0286|INFO |Setting initial instance status as: STARTING
+11-05-2024 13:03:33.0348|INFO |Initializing Eureka in region us-east-1
+11-05-2024 13:03:33.0356|INFO |Resolving eureka endpoints via configuration
+11-05-2024 13:03:33.0392|INFO |Disable delta property : false
+11-05-2024 13:03:33.0392|INFO |Single vip registry refresh property : null
+11-05-2024 13:03:33.0392|INFO |Force full registry fetch : false
+11-05-2024 13:03:33.0392|INFO |Application is null : false
+11-05-2024 13:03:33.0393|INFO |Registered Applications size is zero : true
+11-05-2024 13:03:33.0393|INFO |Application version is -1: true
+11-05-2024 13:03:33.0393|INFO |Getting all instance registry info from the eureka server
+11-05-2024 13:03:33.0880|INFO |The response status is 200
+11-05-2024 13:03:33.0882|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 13:03:33.0885|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 13:03:33.0890|INFO |Discovery Client initialized at timestamp 1715425413890 with initial instances count: 1
+11-05-2024 13:03:33.0892|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 13:03:33.0893|INFO |Saw local status change event StatusChangeEvent [timestamp=1715425413893, current=UP, previous=STARTING]
+11-05-2024 13:03:33.0895|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 13:03:33.0923|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 13:03:33.0923|INFO |Updating port to 8060
+11-05-2024 13:03:33.0942|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 13:03:35.0070|INFO |Cannot determine local hostname
+11-05-2024 13:03:35.0094|INFO |Starting Completed ...
+11-05-2024 13:08:33.0397|INFO |Resolving eureka endpoints via configuration
+11-05-2024 13:11:22.0187|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 13:11:22.0187|INFO |Saw local status change event StatusChangeEvent [timestamp=1715425882187, current=DOWN, previous=UP]
+11-05-2024 13:11:22.0187|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 13:11:22.0193|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 13:11:22.0221|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 13:11:22.0225|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 13:11:22.0227|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 13:11:22.0229|INFO |Shutting down DiscoveryClient ...
+11-05-2024 13:11:25.0243|INFO |Unregistering ...
+11-05-2024 13:11:25.0248|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 13:11:25.0252|INFO |Completed shut down of DiscoveryClient
+11-05-2024 15:35:59.0702|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 15:35:59.0707|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 15:35:59.0707|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 15:36:02.0263|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 15:36:02.0692|INFO |Finished Spring Data repository scanning in 418 ms. Found 14 JPA repository interfaces.
+11-05-2024 15:36:03.0286|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 15:36:04.0379|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 15:36:04.0398|INFO |Starting service [Tomcat]
+11-05-2024 15:36:04.0398|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 15:36:04.0608|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 15:36:04.0608|INFO |Root WebApplicationContext: initialization completed in 4900 ms
+11-05-2024 15:36:05.0055|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 15:36:05.0166|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 15:36:05.0489|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 15:36:05.0715|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 15:36:06.0971|INFO |HikariPool-1 - Starting...
+11-05-2024 15:36:07.0162|INFO |HikariPool-1 - Start completed.
+11-05-2024 15:36:07.0251|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 15:36:07.0267|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:36:10.0778|INFO |Cannot determine local hostname
+11-05-2024 15:36:12.0397|INFO |Cannot determine local hostname
+11-05-2024 15:36:12.0408|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 15:36:12.0577|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 15:36:12.0670|INFO |Setting initial instance status as: STARTING
+11-05-2024 15:36:12.0770|INFO |Initializing Eureka in region us-east-1
+11-05-2024 15:36:12.0788|INFO |Resolving eureka endpoints via configuration
+11-05-2024 15:36:12.0831|INFO |Disable delta property : false
+11-05-2024 15:36:12.0831|INFO |Single vip registry refresh property : null
+11-05-2024 15:36:12.0832|INFO |Force full registry fetch : false
+11-05-2024 15:36:12.0832|INFO |Application is null : false
+11-05-2024 15:36:12.0832|INFO |Registered Applications size is zero : true
+11-05-2024 15:36:12.0832|INFO |Application version is -1: true
+11-05-2024 15:36:12.0832|INFO |Getting all instance registry info from the eureka server
+11-05-2024 15:36:13.0262|INFO |The response status is 200
+11-05-2024 15:36:13.0265|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 15:36:13.0267|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 15:36:13.0273|INFO |Discovery Client initialized at timestamp 1715434573271 with initial instances count: 1
+11-05-2024 15:36:13.0275|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 15:36:13.0275|INFO |Saw local status change event StatusChangeEvent [timestamp=1715434573275, current=UP, previous=STARTING]
+11-05-2024 15:36:13.0278|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:36:13.0308|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 15:36:13.0309|INFO |Updating port to 8060
+11-05-2024 15:36:13.0328|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:36:14.0445|INFO |Cannot determine local hostname
+11-05-2024 15:36:14.0474|INFO |Starting Completed ...
+11-05-2024 15:39:47.0807|INFO |Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2024 15:39:47.0808|INFO |Initializing Servlet 'dispatcherServlet'
+11-05-2024 15:39:47.0811|INFO |Completed initialization in 3 ms
+11-05-2024 15:39:48.0901|INFO |Init duration for springdoc-openapi is: 991 ms
+11-05-2024 15:41:12.0845|INFO |Resolving eureka endpoints via configuration
+11-05-2024 15:45:18.0612|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 15:45:18.0612|INFO |Saw local status change event StatusChangeEvent [timestamp=1715435118612, current=DOWN, previous=UP]
+11-05-2024 15:45:18.0612|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:45:18.0619|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:45:18.0658|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:45:18.0663|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 15:45:18.0668|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 15:45:18.0670|INFO |Shutting down DiscoveryClient ...
+11-05-2024 15:45:21.0674|INFO |Unregistering ...
+11-05-2024 15:45:21.0679|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 15:45:21.0684|INFO |Completed shut down of DiscoveryClient
+11-05-2024 15:48:25.0367|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 15:48:25.0373|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 15:48:25.0373|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 15:48:27.0942|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 15:48:28.0441|INFO |Finished Spring Data repository scanning in 482 ms. Found 14 JPA repository interfaces.
+11-05-2024 15:48:29.0177|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 15:48:30.0591|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 15:48:30.0609|INFO |Starting service [Tomcat]
+11-05-2024 15:48:30.0609|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 15:48:30.0891|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 15:48:30.0891|INFO |Root WebApplicationContext: initialization completed in 5517 ms
+11-05-2024 15:48:31.0496|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 15:48:31.0659|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 15:48:32.0182|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 15:48:32.0635|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 15:48:34.0641|INFO |HikariPool-1 - Starting...
+11-05-2024 15:48:34.0934|INFO |HikariPool-1 - Start completed.
+11-05-2024 15:48:35.0190|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 15:48:35.0232|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:48:39.0343|INFO |Cannot determine local hostname
+11-05-2024 15:48:41.0069|INFO |Cannot determine local hostname
+11-05-2024 15:48:41.0075|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 15:48:41.0178|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 15:48:41.0226|INFO |Setting initial instance status as: STARTING
+11-05-2024 15:48:41.0316|INFO |Initializing Eureka in region us-east-1
+11-05-2024 15:48:41.0325|INFO |Resolving eureka endpoints via configuration
+11-05-2024 15:48:41.0364|INFO |Disable delta property : false
+11-05-2024 15:48:41.0364|INFO |Single vip registry refresh property : null
+11-05-2024 15:48:41.0364|INFO |Force full registry fetch : false
+11-05-2024 15:48:41.0364|INFO |Application is null : false
+11-05-2024 15:48:41.0364|INFO |Registered Applications size is zero : true
+11-05-2024 15:48:41.0364|INFO |Application version is -1: true
+11-05-2024 15:48:41.0364|INFO |Getting all instance registry info from the eureka server
+11-05-2024 15:48:41.0891|INFO |The response status is 200
+11-05-2024 15:48:41.0896|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 15:48:41.0901|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 15:48:41.0911|INFO |Discovery Client initialized at timestamp 1715435321909 with initial instances count: 1
+11-05-2024 15:48:41.0913|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 15:48:41.0915|INFO |Saw local status change event StatusChangeEvent [timestamp=1715435321914, current=UP, previous=STARTING]
+11-05-2024 15:48:41.0919|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:48:41.0972|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 15:48:41.0973|INFO |Updating port to 8060
+11-05-2024 15:48:42.0014|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:48:43.0229|INFO |Cannot determine local hostname
+11-05-2024 15:48:43.0264|INFO |Starting Completed ...
+11-05-2024 15:50:29.0265|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 15:50:29.0266|INFO |Saw local status change event StatusChangeEvent [timestamp=1715435429266, current=DOWN, previous=UP]
+11-05-2024 15:50:29.0266|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:50:29.0270|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:50:29.0305|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:50:29.0309|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 15:50:29.0312|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 15:50:29.0314|INFO |Shutting down DiscoveryClient ...
+11-05-2024 15:50:32.0328|INFO |Unregistering ...
+11-05-2024 15:50:32.0332|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 15:50:32.0336|INFO |Completed shut down of DiscoveryClient
+11-05-2024 15:50:39.0143|INFO |The Class-Path manifest attribute in C:\Users\Ih3b\.m2\repository\org\glassfish\ha\ha-api\3.1.9\ha-api-3.1.9.jar referenced one or more files that do not exist: file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-core.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/class-model.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/config.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/auto-depends.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/javax.inject.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/asm-all-repackaged.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/hk2-api.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/osgi-resource-locator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/tiger-types.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/bean-validator.jar,file:/C:/Users/Ih3b/.m2/repository/org/glassfish/ha/ha-api/3.1.9/jtype.jar
+11-05-2024 15:50:39.0156|INFO |Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11-05-2024 15:50:39.0156|INFO |For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11-05-2024 15:50:41.0730|INFO |Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-05-2024 15:50:42.0138|INFO |Finished Spring Data repository scanning in 393 ms. Found 14 JPA repository interfaces.
+11-05-2024 15:50:42.0924|INFO |BeanFactory id=5ccaec49-1bf5-3a6d-a686-a54a50d1a609
+11-05-2024 15:50:44.0757|INFO |Tomcat initialized with port(s): 8060 (http)
+11-05-2024 15:50:44.0785|INFO |Starting service [Tomcat]
+11-05-2024 15:50:44.0786|INFO |Starting Servlet engine: [Apache Tomcat/9.0.65]
+11-05-2024 15:50:45.0215|INFO |Initializing Spring embedded WebApplicationContext
+11-05-2024 15:50:45.0215|INFO |Root WebApplicationContext: initialization completed in 6057 ms
+11-05-2024 15:50:46.0012|INFO |HHH000204: Processing PersistenceUnitInfo [name: default]
+11-05-2024 15:50:46.0206|INFO |HHH000412: Hibernate ORM core version 5.6.11.Final
+11-05-2024 15:50:46.0820|INFO |HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-05-2024 15:50:47.0300|INFO |HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-05-2024 15:50:50.0026|INFO |HikariPool-1 - Starting...
+11-05-2024 15:50:50.0451|INFO |HikariPool-1 - Start completed.
+11-05-2024 15:50:50.0625|INFO |HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-05-2024 15:50:50.0660|INFO |Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:50:55.0708|INFO |Cannot determine local hostname
+11-05-2024 15:50:57.0431|INFO |Cannot determine local hostname
+11-05-2024 15:50:57.0438|INFO |Eureka HTTP Client uses RestTemplate.
+11-05-2024 15:50:57.0589|INFO |Exposing 1 endpoint(s) beneath base path '/actuator'
+11-05-2024 15:50:57.0634|INFO |Setting initial instance status as: STARTING
+11-05-2024 15:50:57.0705|INFO |Initializing Eureka in region us-east-1
+11-05-2024 15:50:57.0712|INFO |Resolving eureka endpoints via configuration
+11-05-2024 15:50:57.0755|INFO |Disable delta property : false
+11-05-2024 15:50:57.0755|INFO |Single vip registry refresh property : null
+11-05-2024 15:50:57.0755|INFO |Force full registry fetch : false
+11-05-2024 15:50:57.0756|INFO |Application is null : false
+11-05-2024 15:50:57.0756|INFO |Registered Applications size is zero : true
+11-05-2024 15:50:57.0756|INFO |Application version is -1: true
+11-05-2024 15:50:57.0756|INFO |Getting all instance registry info from the eureka server
+11-05-2024 15:50:58.0289|INFO |The response status is 200
+11-05-2024 15:50:58.0295|INFO |Starting heartbeat executor: renew interval is: 30
+11-05-2024 15:50:58.0299|INFO |InstanceInfoReplicator onDemand update allowed rate per min is 4
+11-05-2024 15:50:58.0309|INFO |Discovery Client initialized at timestamp 1715435458308 with initial instances count: 1
+11-05-2024 15:50:58.0312|INFO |Registering application ADMINISTRATION-SERVICE with eureka with status UP
+11-05-2024 15:50:58.0313|INFO |Saw local status change event StatusChangeEvent [timestamp=1715435458313, current=UP, previous=STARTING]
+11-05-2024 15:50:58.0316|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:50:58.0398|INFO |Tomcat started on port(s): 8060 (http) with context path ''
+11-05-2024 15:50:58.0399|INFO |Updating port to 8060
+11-05-2024 15:50:58.0417|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:50:59.0612|INFO |Cannot determine local hostname
+11-05-2024 15:50:59.0639|INFO |Starting Completed ...
+11-05-2024 15:54:24.0259|INFO |Unregistering application ADMINISTRATION-SERVICE with eureka with status DOWN
+11-05-2024 15:54:24.0260|INFO |Saw local status change event StatusChangeEvent [timestamp=1715435664260, current=DOWN, previous=UP]
+11-05-2024 15:54:24.0261|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060: registering service...
+11-05-2024 15:54:24.0265|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - registration status: 204
+11-05-2024 15:54:24.0316|INFO |Closing JPA EntityManagerFactory for persistence unit 'default'
+11-05-2024 15:54:24.0324|INFO |HikariPool-1 - Shutdown initiated...
+11-05-2024 15:54:24.0329|INFO |HikariPool-1 - Shutdown completed.
+11-05-2024 15:54:24.0331|INFO |Shutting down DiscoveryClient ...
+11-05-2024 15:54:27.0347|INFO |Unregistering ...
+11-05-2024 15:54:27.0351|INFO |DiscoveryClient_ADMINISTRATION-SERVICE/localhost:administration-service:8060 - deregister  status: 200
+11-05-2024 15:54:27.0355|INFO |Completed shut down of DiscoveryClient

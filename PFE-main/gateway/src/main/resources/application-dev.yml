@@ -1,0 +1,122 @@
+spring:
+
+# Configuration Spring Cloud
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "*"
+              allowedMethods: "*"
+              allowedHeaders: "*"
+
+# Configuration router gateway
+
+      routes:
+      - id: administration-service
+        uri: lb://administration-service
+        predicates:
+        - Path=/administration/**
+        filters:
+        - RewritePath=/administration/(?<path>.*), /$\{path}
+      - id: employe-service
+        uri: lb://employe-service
+        predicates:
+        - Path=/employe/**
+        filters:
+        - RewritePath=/employe/(?<path>.*), /$\{path}
+      - id: gateway-service
+        uri: lb://gateway-service
+        predicates:
+        - Path=/gateway/**
+        filters:
+        - RewritePath=/gateway/(?<path>.*), /$\{path}
+      - id: ged-service
+        uri: lb://ged-service
+        predicates:
+        - Path=/ged/**
+        filters:
+        - RewritePath=/ged/(?<path>.*), /$\{path}
+      - id: openapi
+        uri: http://localhost:${server.port}
+        predicates:
+        - Path=/v3/api-docs/**
+        filters:
+        - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
+      - id: candidat-service
+        uri: lb://candidat-service
+        predicates:
+          - Path=/candidat/**
+      - id: ecole-service
+        uri: lb://ecole-service
+        predicates:
+          - Path=/ecole/**
+        filters:
+        - RewritePath=/ecole/(?<path>.*), /$\{path}
+#
+
+#      - id: candidat-service
+#        uri: lb://candidat-service
+#        predicates:
+#          - Path=/v3/api-docs/**
+#        filters:
+#          - RewritePath=/employe/(?<path>.*), /$\{path}
+
+        
+
+
+# Configuration dataBase
+  datasource:
+    url: jdbc:postgresql://localhost:5432/matiere
+    username: postgres
+    password: root
+    hikari:
+      maximumPoolSize: 5
+      connectionTimeout: 3000
+
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+
+# Hibernate ddl auto (create, create-drop, validate, update)
+    hibernate:
+      ddl-auto: update
+
+## Banner config
+  banner:
+    location: classpath:config/banner/banner-dev.txt
+  main:
+    log-startup-info: false
+  output:
+    ansi:
+      enabled: always
+
+# Token
+jwt:
+  secret: BvPHGM8C0ia4uOuxxqPD5DTbWC9F9TWvPStp3pb7ARo0oK2mJ3pd3YG4lxA9i8bj6OTbadwezxgeEByY
+  expiration: 86400
+
+server:
+  port: 8062
+
+# Connection to eureka
+eureka:
+  client:
+    serviceUrl:
+     defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    preferIpAddress: true
+    
+    
+    ## Configure Multipart File for Servlet
+    -spring.servlet.multipart.max-file-size: 500KB
+    -spring.servlet.multipart.max-request-size: 500KB

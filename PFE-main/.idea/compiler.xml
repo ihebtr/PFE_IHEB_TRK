@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="administration-presentation" />
+        <module name="administration-business" />
+        <module name="administration-persistence" />
+        <module name="Gateway" />
+        <module name="administration-common" />
+        <module name="ecole" />
+        <module name="Eureka" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="administration" options="-parameters" />
+      <module name="administration-business" options="-parameters" />
+      <module name="administration-common" options="-parameters" />
+      <module name="administration-persistence" options="-parameters" />
+      <module name="administration-presentation" options="-parameters" />
+      <module name="ecole" options="-parameters" />
+    </option>
+  </component>
+</project>

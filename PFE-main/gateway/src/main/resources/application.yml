@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway-service
+    version: 1.0.0
+
+springdoc:
+  version: '@springdoc.version@'
+

@@ -1,0 +1,73 @@
+#Connection To database
+spring:
+  application:
+    name: ecole-service
+    openapi:
+      name: ecole
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Ecole?currentSchema=pfe
+    username: postgres
+    password: root
+
+    #url: jdbc:postgresql://localhost:5432/guru
+    #username: alfresco
+    #password: alfresco
+
+    hikari:
+      maximumPoolSize: 5
+      connectionTimeout: 3000
+
+  # The SQL dialect makes Hibernate generate better SQL for the chosen database
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+
+    # Hibernate ddl auto (create, create-drop, validate, update)
+    hibernate:
+      ddl-auto: create
+
+  ## Banner config
+  banner:
+    location: classpath:config/banner/banner-dev.txt
+  main:
+    log-startup-info: false
+  output:
+    ansi:
+      enabled: always
+
+
+
+springdoc:
+  swagger-ui:
+    operationsSorter: method
+    default-models-expand-depth: 0
+  packages-to-scan: tn.com.sigrh
+  model-and-view-allowed: true
+  cache:
+    disabled: true
+
+
+# Connection to eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true
+# Server
+server:
+  port: 8064
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include
+		resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+	<springProfile name="prod, test">
+
+		<property name="LOG_FILE_INFO"
+			value="log/gateway-info.log" />
+		<property name="LOG_FILE_ERROR"
+			value="log/gateway-error.log" />
+
+		<include
+			resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+		<appender name="INFO_FILE"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>log/gateway-info.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>90</maxHistory>
+				<totalSizeCap>3GB</totalSizeCap>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.LevelFilter">
+				<level>INFO</level>
+				<onMatch>ACCEPT</onMatch>
+				<onMismatch>DENY</onMismatch>
+			</filter>
+			<encoder>
+				<pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</pattern>
+			</encoder>
+		</appender>
+
+		<appender name="ERROR_FILE"
+			class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<rollingPolicy
+				class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>log/gateway-error.%d{yyyy-MM-dd}.log
+				</fileNamePattern>
+				<maxHistory>90</maxHistory>
+				<totalSizeCap>3GB</totalSizeCap>
+			</rollingPolicy>
+			<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+				<level>ERROR</level>
+			</filter>
+			<encoder>
+				<pattern>%d{dd-MM-yyyy HH:mm:ss.SSSS}|%-5level|%msg%n</pattern>
+			</encoder>
+		</appender>
+
+		<root level="ERROR">
+			<appender-ref ref="ERROR_FILE" />
+		</root>
+		<root level="INFO">
+			<appender-ref ref="INFO_FILE" />
+		</root>
+
+	</springProfile>
+
+	<springProfile name="prod,dev,test">
+		<include
+			resource="org/springframework/boot/logging/logback/console-appender.xml" />
+		<root level="INFO">
+			<appender-ref ref="CONSOLE" />
+		</root>
+		<logger name="org.springframework" level="INFO" />
+		<logger name="tn.com.guru" level="INFO" />
+	</springProfile>
+
+	<jmxConfigurator />
+</configuration>
